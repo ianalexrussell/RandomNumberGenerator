@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  background: lightblue;
+  color: black;
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+
+.App .container {
+  width: 60%;
+  height: 100vh;
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00a4d1;
+}
+
+.App .container .randomNum {
+  /* background: black; */
+  padding: 20px;
+}
+
+.App .container .randomNum p span {
+  color: #61dafb;
+  font-weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  width: 20em;
+  height: 4em;
+  border: none;
+  border-radius: 10px;
+  transition: 1s;
+  background-color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(0.97);
+  /* background-color: red; */
+}
+
+input {
+  font-size: 1em;
+  height: 2em;
+  border: none;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.descriptor {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 0.5em;
+}
